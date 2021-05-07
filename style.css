@@ -1,0 +1,28 @@
+body{
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(86,226,168,1) 100%);
+}
+.container{
+    height: 100vh;
+    width: 70vh;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reloj-container{
+    color: white;
+    width: 90%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem auto;
+    border-radius: 10px;
+    transition: transform .7s;
+    cursor: pointer;
+}
+.reloj-container:hover{
+    transform: scale(1.3);
+}
